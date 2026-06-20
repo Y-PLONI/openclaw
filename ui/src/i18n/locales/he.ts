@@ -1,7 +1,8 @@
-// Control UI English locale strings are the i18n source bundle.
+// Generated locale bundle for Control UI translations.
+// Run `pnpm ui:i18n:sync` instead of editing this file directly.
 import type { TranslationMap } from "../lib/types.ts";
 
-export const en: TranslationMap = {
+export const he: TranslationMap = {
   common: {
     health: "Health",
     ok: "OK",
@@ -199,7 +200,6 @@ export const en: TranslationMap = {
     inherit: "inherit",
     defaultOption: "Default ({value})",
     offExplicit: "off (explicit)",
-    auto: "auto",
     on: "on",
     off: "off",
     full: "full",
@@ -1609,7 +1609,6 @@ export const en: TranslationMap = {
       nextHeartbeat: "Next heartbeat",
       wakeModeHelp: "Now triggers immediately. Next heartbeat waits for the next cycle.",
       payloadKind: "What should run?",
-      command: "Command",
       systemEvent: "Post message to main timeline",
       agentTurn: "Run assistant task (isolated)",
       systemEventHelp:
